@@ -1,0 +1,192 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/campitos/node-v7.0.0-linux-x64/bin/node',
+1 verbose cli   '/home/campitos/node-v7.0.0-linux-x64/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'clarity-icons',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData clarity-icons
+8 silly fetchNamedPackageData clarity-icons
+9 silly mapToRegistry name clarity-icons
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'clarity-icons',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'clarity-icons',
+12 silly mapToRegistry   name: 'clarity-icons',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/clarity-icons
+14 verbose request uri https://registry.npmjs.org/clarity-icons
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 12:08:59 PM
+17 verbose request id 3ad15d60637e5066
+18 verbose etag W/"5873c3e4-79d4"
+19 verbose lastModified Mon, 09 Jan 2017 17:09:56 GMT
+20 http request GET https://registry.npmjs.org/clarity-icons
+21 http 200 https://registry.npmjs.org/clarity-icons
+22 verbose headers { server: 'nginx/1.10.1',
+22 verbose headers   'content-type': 'application/json',
+22 verbose headers   'last-modified': 'Thu, 12 Jan 2017 17:04:48 GMT',
+22 verbose headers   etag: 'W/"5877b730-7f7a"',
+22 verbose headers   'content-encoding': 'gzip',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   'content-length': '3292',
+22 verbose headers   'accept-ranges': 'bytes',
+22 verbose headers   date: 'Thu, 12 Jan 2017 18:09:00 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-dfw1821-DFW',
+22 verbose headers   'x-cache': 'MISS',
+22 verbose headers   'x-cache-hits': '0',
+22 verbose headers   'x-timer': 'S1484244540.169411,VS0,VE35',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 200,
+23 silly get   { server: 'nginx/1.10.1',
+23 silly get     'content-type': 'application/json',
+23 silly get     'last-modified': 'Thu, 12 Jan 2017 17:04:48 GMT',
+23 silly get     etag: 'W/"5877b730-7f7a"',
+23 silly get     'content-encoding': 'gzip',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     'content-length': '3292',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Thu, 12 Jan 2017 18:09:00 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-dfw1821-DFW',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1484244540.169411,VS0,VE35',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose get saving clarity-icons to /home/campitos/.npm/registry.npmjs.org/clarity-icons/.cache.json
+25 verbose correctMkdir /home/campitos/.npm correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule clarity-icons@0.8.2 checking installable status
+39 silly cache add args [ 'clarity-icons', null ]
+40 verbose cache add spec clarity-icons
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'clarity-icons',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'clarity-icons',
+41 silly cache add   name: 'clarity-icons',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed clarity-icons@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for clarity-icons
+44 info addNameTag [ 'clarity-icons', 'latest' ]
+45 silly mapToRegistry name clarity-icons
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'clarity-icons',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'clarity-icons',
+48 silly mapToRegistry   name: 'clarity-icons',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/clarity-icons
+50 verbose addNameTag registry:https://registry.npmjs.org/clarity-icons not in flight; fetching
+51 verbose get https://registry.npmjs.org/clarity-icons not expired, no request
+52 silly addNameTag next cb for clarity-icons with tag latest
+53 silly addNamed clarity-icons@0.8.2
+54 verbose addNamed "0.8.2" is a plain semver version for clarity-icons
+55 silly mapToRegistry name clarity-icons
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'clarity-icons',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'clarity-icons',
+58 silly mapToRegistry   name: 'clarity-icons',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/clarity-icons
+60 verbose addRemoteTarball https://registry.npmjs.org/clarity-icons/-/clarity-icons-0.8.2.tgz not in flight; adding
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/clarity-icons/-/clarity-icons-0.8.2.tgz',
+61 verbose addRemoteTarball   '908a7d8c9b4666d6799e74ec1db07f475d1efeb3' ]
+62 info retry fetch attempt 1 at 12:09:00 PM
+63 info attempt registry request try #1 at 12:09:00 PM
+64 http fetch GET https://registry.npmjs.org/clarity-icons/-/clarity-icons-0.8.2.tgz
+65 http fetch 200 https://registry.npmjs.org/clarity-icons/-/clarity-icons-0.8.2.tgz
+66 silly fetchAndShaCheck shasum 908a7d8c9b4666d6799e74ec1db07f475d1efeb3
+67 verbose addTmpTarball /tmp/npm-21365-4fe0954c/registry.npmjs.org/clarity-icons/-/clarity-icons-0.8.2.tgz not in flight; adding
+68 verbose addTmpTarball already have metadata; skipping unpack for clarity-icons@0.8.2
+69 verbose correctMkdir /home/campitos/.npm correctMkdir not in flight; initializing
+70 silly cache afterAdd clarity-icons@0.8.2
+71 verbose afterAdd /home/campitos/.npm/clarity-icons/0.8.2/package/package.json not in flight; writing
+72 verbose correctMkdir /home/campitos/.npm correctMkdir not in flight; initializing
+73 verbose afterAdd /home/campitos/.npm/clarity-icons/0.8.2/package/package.json written
+74 silly loadAllDepsIntoIdealTree Finishing
+75 silly loadIdealTree Finishing
+76 silly currentTree PROYECTOS_ANGULAR2
+77 silly idealTree PROYECTOS_ANGULAR2
+77 silly idealTree └── clarity-icons@0.8.2
+78 silly generateActionsToTake Starting
+79 silly install generateActionsToTake
+80 warn checkPermissions Missing write access to /home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules
+81 silly rollbackFailedOptional Starting
+82 silly rollbackFailedOptional Finishing
+83 silly runTopLevelLifecycles Finishing
+84 silly install printInstalled
+85 warn enoent ENOENT: no such file or directory, open '/home/campitos/Documents/PROYECTOS_ANGULAR2/package.json'
+86 verbose enoent ENOENT: no such file or directory, open '/home/campitos/Documents/PROYECTOS_ANGULAR2/package.json'
+86 verbose enoent This is most likely not a problem with npm itself
+86 verbose enoent and is related to npm not being able to find a file.
+87 warn clarity-icons@0.8.2 requires a peer of mutationobserver-shim@^0.3.2 but none was installed.
+88 verbose If you need help, you may report this error at:
+88 verbose     <https://github.com/npm/npm/issues>
+89 warn clarity-icons@0.8.2 requires a peer of @webcomponents/custom-elements@1.0.0-alpha.3 but none was installed.
+90 verbose If you need help, you may report this error at:
+90 verbose     <https://github.com/npm/npm/issues>
+91 warn PROYECTOS_ANGULAR2 No description
+92 verbose If you need help, you may report this error at:
+92 verbose     <https://github.com/npm/npm/issues>
+93 warn PROYECTOS_ANGULAR2 No repository field.
+94 verbose If you need help, you may report this error at:
+94 verbose     <https://github.com/npm/npm/issues>
+95 warn PROYECTOS_ANGULAR2 No README data
+96 verbose If you need help, you may report this error at:
+96 verbose     <https://github.com/npm/npm/issues>
+97 warn PROYECTOS_ANGULAR2 No license field.
+98 verbose If you need help, you may report this error at:
+98 verbose     <https://github.com/npm/npm/issues>
+99 verbose stack Error: EACCES: permission denied, access '/home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules'
+100 verbose cwd /home/campitos/Documents/PROYECTOS_ANGULAR2/mis-tareas-angular
+101 error Linux 4.2.0-42-generic
+102 error argv "/home/campitos/node-v7.0.0-linux-x64/bin/node" "/home/campitos/node-v7.0.0-linux-x64/bin/npm" "install" "clarity-icons" "--save"
+103 error node v7.0.0
+104 error npm  v3.10.8
+105 error path /home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules
+106 error code EACCES
+107 error errno -13
+108 error syscall access
+109 error Error: EACCES: permission denied, access '/home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules'
+109 error  { Error: EACCES: permission denied, access '/home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules'
+109 error   errno: -13,
+109 error   code: 'EACCES',
+109 error   syscall: 'access',
+109 error   path: '/home/campitos/Documents/PROYECTOS_ANGULAR2/node_modules' }
+110 error Please try running this command again as root/Administrator.
+111 verbose exit [ -13, true ]
